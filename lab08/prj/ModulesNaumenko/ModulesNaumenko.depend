@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1742129423 source:d:\bmtp-lab8-naumenko\prj\modulesnaumenko\main.cpp
+	<iostream>
+	"s_calculation.h"
+
+1742129592 source:d:\bmtp-lab8-naumenko\prj\modulesnaumenko\main.c
+
