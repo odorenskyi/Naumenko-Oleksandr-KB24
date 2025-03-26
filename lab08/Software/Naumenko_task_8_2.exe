@@ -8,7 +8,7 @@ using namespace std;
 // Функція для виводу інформації про розробника
 void printDeveloperInfo() {
     cout << "=========================================" << endl;
-    cout << " Прізвище Ім'я, email@example.com " << endl;
+    cout << " Науменко Олександр, ddima1812000000@gmail.com " << endl;
     cout << " (c) All Rights Reserved " << endl;
     cout << "=========================================" << endl;
 }
