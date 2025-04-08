@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1744132218 source:d:\lab09\prj\testdriver\main.cpp
+	<iostream>
+	<vector>
+	<cmath>
+	<iomanip>
+	"D:\Lab09\prj/ModulesNaumenko.h"
+
+1744130404 d:\lab09\prj\modulesnaumenko.h
+	<cmath>
+	<vector>
+
+1744132348 source:d:\lab09\prj\testdriver\modulesnaumenko.cpp
+	"ModulesNaumenko.h"
+	<cmath>
+
