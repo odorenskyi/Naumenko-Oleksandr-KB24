@@ -1,0 +1,66 @@
+#include <iostream>
+#include <cctype>
+#include <limits>
+#include <clocale>
+#include ""D:\Lab09\prj\ModulesNaumenko.h""
+
+using namespace std;
+
+void run_program() {
+    char command;
+    while (true) {
+        cout << "\nВведіть команду ('z', 'r', 's', 't') або 'q' для виходу: ";
+        cin >> command;
+
+        switch (tolower(command)) {
+            case 'z': {
+                double x, y, z;
+                cout << "Введіть x, y, z для обчислення S: ";
+                cin >> x >> y >> z;
+                double result = s_calculation(x, y, z);
+                cout << "Результат обчислення s_calculation: " << result << endl;
+                break;
+            }
+            case 'r': {
+                int kWh;
+                cout << "Введіть споживання електроенергії (кВт·год): ";
+                cin >> kWh;
+                double result = calculateBill(kWh);
+                cout << "Сума до сплати: " << result << " грн\n";
+                break;
+            }
+            case 's': {
+                double temps[6];
+                cout << "Введіть температуру (6 значень через пробіл): ";
+                for (int i = 0; i < 6; ++i) {
+                    cin >> temps[i];
+                }
+                double avg;
+                temperatureAnalysis(temps, 6, avg);
+                cout << "Середня температура: " << avg << " °C\n";
+                break;
+            }
+            case 't': {
+                unsigned int N;
+                cout << "Введіть натуральне число N: ";
+                cin >> N;
+                int count = countBits(N);
+                cout << "Кількість встановлених бітів: " << count << endl;
+                break;
+            }
+            case 'q':
+                cout << "Завершення програми.\n";
+                return;
+            default:
+                cout << "\aНевірна команда! Повторіть введення.\n";
+                cin.clear();
+                cin.ignore(numeric_limits<streamsize>::max(), '\n');
+        }
+    }
+}
+
+int main() {
+    setlocale(LC_ALL, "Ukrainian");
+    run_program();
+    return 0;
+}
