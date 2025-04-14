@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1744658729 source:d:\lab10\prj\naumenkoapp\main.cpp
+	<iostream>
+	"ModulesNaumenko.h"
+
+1744657633 d:\lab10\prj\modulesnaumenko.h
+	<string>
+

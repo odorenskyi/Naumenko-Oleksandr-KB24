@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1740933564 source:d:\lab10\prj\testdrivermodules\main.c
+
+1744661665 source:d:\lab10\prj\testdrivermodules\testdriver.cpp
+	"TestDriver.h"
+	<fstream>
+	<iostream>
+	<locale>
+	<bitset>
+
+1744659859 d:\lab10\prj\testdrivermodules\testdriver.h
+	<string>
+	<vector>
+	"D:\Lab10\prj\ModulesNaumenko.h"
+
+1744657633 d:\lab10\prj\modulesnaumenko.h
+	<string>
+
+1744661800 source:d:\lab10\prj\testdrivermodules\main.cpp
+	"TestDriver.h"
+	<locale>
+

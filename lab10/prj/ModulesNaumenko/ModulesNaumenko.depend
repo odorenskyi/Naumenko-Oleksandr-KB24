@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1740933564 source:d:\lab10\prj\modulesnaumenko\main.c
+
+1744664196 source:d:\lab10\prj\modulesnaumenko\modulesnaumenko.cpp
+	"ModulesNaumenko.h"
+	<fstream>
+	<string>
+	<vector>
+	<algorithm>
+	<ctime>
+	<bitset>
+	<cmath>
+	<locale>
+
+1744657633 d:\lab10\prj\modulesnaumenko.h
+	<string>
+
