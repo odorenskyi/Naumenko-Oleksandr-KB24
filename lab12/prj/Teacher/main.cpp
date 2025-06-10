@@ -5,7 +5,7 @@
 #include <cmath>
 #include <chrono>
 #include <thread>
-#include "ModulesStudent.h"
+#include "ModulesNaumenko.h"
 
 using namespace std;
 
